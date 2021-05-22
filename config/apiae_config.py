@@ -10,11 +10,8 @@ APIAE_PARAMS = dict(
 
     dt=.1,  # time interval
     ur=.1,  # update rate
-    lr=1e-3,  # learning rate
-    
-    u_ratio=2.0,
-    taus=0.1,
+    lr=1e-3,  # learning 
 )
 
-TRAINING_EPOCHS = 5000
+TRAINING_EPOCHS = 3000
 OFFSET_STD = 1e-5
